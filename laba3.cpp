@@ -2,7 +2,7 @@
 #include <vector>
 #include <queue>
 #include <string>
-#include <windows.h> // Обязательно для работы с кодом консоли
+#include <windows.h> 
 
 using namespace std;
 
@@ -36,7 +36,7 @@ void solve(int n) {
 }
 
 int main() {
-    // Устанавливаем кодировку UTF-8 (65001) для ввода и вывода
+
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 
@@ -49,7 +49,7 @@ int main() {
 
     solve(n);
 
-    // Твое имя строго в конце программы
+
     cout << "\nЛобанкин Денис Витальевич РПИ-Б\n";
 
     cout << "\nНажмите Enter для завершения программы...";
